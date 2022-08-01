@@ -1,6 +1,6 @@
 // fn main() {
 //     let mut x = 5; //Variable Mutability
-//     println!("The value of x is: {x}");
+//  &   println!("The value of x is: {x}");
 //     x = 6;
 //     println!("The value of x is: {x}");
 // }
@@ -26,26 +26,34 @@
 //     println!("Values : {} {}", x, y);
 // }
 
+// fn main() {
+//     // addition
+//     let sum = 5 + 10;
+//     println!("Addition : {}", sum);
+
+//     // subtraction
+//     let difference = 95.5 - 4.3;
+//     println!("Subtraction : {}", difference);
+
+//     // multiplication
+//     let product = 4 * 30;
+//     println!("Multiplication : {}", product);
+
+//     // division
+//     let quotient = 56.7 / 32.2;
+//     println!("Division by f64 : {}", quotient);
+//     let floored = 2 / 3; // Results in 0
+//     println!("Division by i32 : {}", floored);
+
+//     // remainder
+//     let remainder = 43 % 5;
+//     println!("Remainder: {}", remainder);
+// }
+
 fn main() {
-    // addition
-    let sum = 5 + 10;
-    println!("Addition : {}", sum);
-
-    // subtraction
-    let difference = 95.5 - 4.3;
-    println!("Subtraction : {}", difference);
-
-    // multiplication
-    let product = 4 * 30;
-    println!("Multiplication : {}", product);
-
-    // division
-    let quotient = 56.7 / 32.2;
-    println!("Division by f64 : {}", quotient);
-    let floored = 2 / 3; // Results in 0
-    println!("Division by i32 : {}", floored);
-
-    // remainder
-    let remainder = 43 % 5;
-    println!("Remainder: {}", remainder);
+    let t = true;
+    println!("Bool: {}", t);
+    let f: bool = false; // with explicit type annotation
+    println!("Bool: {}", f);
 }
+
